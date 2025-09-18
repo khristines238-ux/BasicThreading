@@ -14,7 +14,7 @@ namespace BasicThreading
             Thread thread = Thread.CurrentThread;
             thread.Name = threadName;
 
-            for (int loopCount = 0; loopCount <= 5; loopCount++)
+            for (int loopCount = 0; loopCount <= 7; loopCount++)
             {
 
                 string message = "";
