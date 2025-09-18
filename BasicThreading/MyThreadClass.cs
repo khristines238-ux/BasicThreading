@@ -17,15 +17,7 @@ namespace BasicThreading
             for (int loopCount = 0; loopCount <= 7; loopCount++)
             {
 
-                string message = "";
-
-                if (threadName == "Thread A")
-                    message = $"Step{loopCount}: Downloading file chunk {loopCount}";
-                else if (threadName == "Thread B")
-                    message = $"Step{loopCount}: Processing data batch {loopCount}";
-
-                Console.WriteLine("[" + thread.Name + "] " + message);
-               
+                Console.WriteLine("Name of Thread: " + thread.Name + " Process = " + loopCount);
 
                 Thread.Sleep(1500);
             }
