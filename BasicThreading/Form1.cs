@@ -39,20 +39,4 @@ namespace BasicThreading
             lblStatus.Text = "-End of Thread-";
         }
     }
-
-    public class MyThreadClass
-    {
-        public static void Thread1(string threadName)
-        {
-           Thread thread = Thread.CurrentThread;
-           thread.Name = threadName;
-
-            for (int i = 0; i <= 5;i++)
-            {
-                Console.WriteLine("Name of Thread: " + thread.Name + "Process =" + i);
-
-                Thread.Sleep(1500);
-            }
-        }
-    }
 }
