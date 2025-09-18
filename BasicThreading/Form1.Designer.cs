@@ -52,6 +52,7 @@
             this.btnRun.TabIndex = 2;
             this.btnRun.Text = "Run";
             this.btnRun.UseVisualStyleBackColor = false;
+            this.btnRun.Click += new System.EventHandler(this.btnRun_Click);
             // 
             // frmBasicThread
             // 
@@ -63,6 +64,7 @@
             this.Controls.Add(this.lblStatus);
             this.Name = "frmBasicThread";
             this.Text = "BasicThread";
+            this.Load += new System.EventHandler(this.frmBasicThread_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
