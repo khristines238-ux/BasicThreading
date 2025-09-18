@@ -28,30 +28,30 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.lblStatus = new System.Windows.Forms.Label();
+            this.btnRun = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // lblStatus
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(170, 70);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(293, 31);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "-Before starting thread-";
+            this.lblStatus.AutoSize = true;
+            this.lblStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblStatus.Location = new System.Drawing.Point(170, 70);
+            this.lblStatus.Name = "lblStatus";
+            this.lblStatus.Size = new System.Drawing.Size(293, 31);
+            this.lblStatus.TabIndex = 1;
+            this.lblStatus.Text = "-Before starting thread-";
             // 
-            // button1
+            // btnRun
             // 
-            this.button1.BackColor = System.Drawing.Color.Plum;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Location = new System.Drawing.Point(276, 147);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Run";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnRun.BackColor = System.Drawing.Color.Plum;
+            this.btnRun.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnRun.Location = new System.Drawing.Point(276, 147);
+            this.btnRun.Name = "btnRun";
+            this.btnRun.Size = new System.Drawing.Size(75, 23);
+            this.btnRun.TabIndex = 2;
+            this.btnRun.Text = "Run";
+            this.btnRun.UseVisualStyleBackColor = false;
             // 
             // frmBasicThread
             // 
@@ -59,8 +59,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Thistle;
             this.ClientSize = new System.Drawing.Size(680, 289);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.btnRun);
+            this.Controls.Add(this.lblStatus);
             this.Name = "frmBasicThread";
             this.Text = "BasicThread";
             this.ResumeLayout(false);
@@ -69,8 +69,8 @@
         }
 
         #endregion
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label lblStatus;
+        private System.Windows.Forms.Button btnRun;
     }
 }
 
